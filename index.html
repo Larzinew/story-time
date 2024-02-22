@@ -42,24 +42,18 @@
             <div class="hero-background"></div>
             <div class="hero-text">
                 <h1>Welcome to Story-Time</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Let Us Animate Your Craziest Stories</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
         </div>
         <section class="upload-section">
-            <h2>Share Your Story!</h2>
-            <div class="wrapper">
-                <form id="story-form">
-                    <div class="mb-3">
-                        <label for="story-title" class="form-label"> Story Title:</label>
-                        <input type="text" class="form-control" id="story-title" name="story-title" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="story-content" class="form-label">Your Story:</label>
-                        <textarea class="form-control" id="story-content" name="story-content" rows="5" required></textarea>
-                    </div>
-                    <span class="box">
-                            <div class="box">
+            <div class="form-wrapper">
+                <form id="story-form" class="form-container">
+                    <label for="story-title">Title:</label>
+                    <input type="text" id="story-title" name="story-title" required class="input-field">
+                    <label for="story-content">Your Story:</label>
+                    <textarea id="story-content" name="story-content" rows="5" required class="input-field"></textarea>                    </div>
+                            <!-- <div class="box"> -->
                                 <div class="input-bx">
                                     <h2 class="upload-area-title">Upload File</h2>
                                     <label for="upload" class="uploadlabel">
@@ -69,12 +63,13 @@
                                     </label>
                                     <button type="submit">Submit Story</button>
                                 </div>
-                            </div>
-                            </form>
+                            <!-- </div> -->
                         </div>
-                    </span>
                 </form>
             </div>
+            <div class="form-description">
+                <h2>Share Your Story!</h2>
+               </div>
         </section>
             <div id="filewrapper">
                 <h3 class="uploaded">Uploaded Documents</h3>
